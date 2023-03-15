@@ -1,1 +1,30 @@
+#include <stdio.h>
 
+int main()
+{
+    int b1, b2, b3, b4, total, sal, divi;
+    printf("Digite o valor do primeiro boleto: ");
+    scanf("%i",&b1);
+    
+    printf("Digite o valor do segundo boleto: ");
+    scanf("%i",&b2);
+    
+    printf("Digite o valor do terceiro boleto: ");
+    scanf("%i",&b3);
+    
+    printf("Digite o valor do quarto boleto: ");
+    scanf("%i",&b4);
+    
+    printf("Digite o valor do seu salário: ");
+    scanf("%i",&sal);
+    
+    total = (b1+b2+b3+b4);
+    
+    printf("O valor total dos boletos são: %i\n", total);
+    
+    divi= (sal-total);
+    
+    printf("O valor que irá sobrar(ou faltar) é de: %i",divi);
+    
+    
+}
